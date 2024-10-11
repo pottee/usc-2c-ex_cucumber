@@ -1,0 +1,21 @@
+{
+  "name": "us-c2c-ex_cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5",
+    "cucumber-html-reporter": "^7.2.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "reflect-metadata": "^0.2.2"
+  }
+}
