@@ -10,8 +10,8 @@ class HomePage{
 
      async openPage(){
 
-        await this.page.goto('https://www.mercari.com');
-        await expect(this.page).toHaveTitle('Mercari: Your Marketplace');
+        await this.page.goto('https://tba.com');
+        await expect(this.page).toHaveTitle('tba');
      }
 
      async acceptPrivacy(){
