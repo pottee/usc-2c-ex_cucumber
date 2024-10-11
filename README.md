@@ -8,13 +8,18 @@ but code can be learned like for its structure.
 
 **Setup:**
 1. install playwright 
-  $ npm init playwright@latest
 
-2. Install cucumber 
-  $ npm install@cucumber/cucumber
-  and Cucumber plugin as needed in VSCode from Extensions.
+        $ npm init playwright@latest
+   
 
-3. Replace the url in page.goto('https://tba.com') with target url first ,
+3. Install cucumber
+
+       $ npm install@cucumber/cucumber
+  
+  
+     and Cucumber plugin as needed in VSCode from Extensions.
+
+4. Replace the url in page.goto('https://tba.com') with target url first ,
    and the assertion 'tba' as title of homepage in expect(this.page).toHaveTitle('tba'), in ./pages/homepage.page.js.
    
 **How to run test:**
